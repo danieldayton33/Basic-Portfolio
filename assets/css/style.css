@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("assets/images/just-waves.png");
+}
+.nameplate {
+    position: absolute;
+    left: 15%;
+    bottom: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+.menu {
+    position: absolute;
+    right: 15%;
+    bottom: 0px;
+    padding: 10px;
+    color: #777777;
+}
+tr,td {
+    padding: 10px;
+    font-size: 12px;
+}
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+a:visited {
+    color: #777777;
+    text-decoration: none
+}
+.header {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: #cccccc 2px solid;
+    height: 100px;
+}
+#wrapper {
+    width: 100%;
+    background-color: #dddddd;
+    height: 70%;
+    position: relative;
+    border-bottom:  #4aaaa5 5px solid;
+}
+h1 {
+    color: #4aaaa5;
+    padding: 20px;
+    border-bottom: #cccccc 2px solid;
+    font-size: 24px;
+}
+#DandS {
+    height: 200px;
+    float: left;
+    padding: 10px
+
+}
+#content { 
+    position: absolute;
+    left: 15%;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 2px;
+    border-color: #dddddd;
+    width: 70%;
+    height: 85%;
+    padding: 10px;
+    color: #777777;
+    font-size: 14px;
+}
+footer {
+    width: 100%;
+    background-color: #666666;
+    text-align: center;
+    padding: 20px 0 0 0;
+    color: #cccccc;
+    font-size: 10px;
+}
+/* contact CSS */
+input[type=text]{
+    width: 100%;
+
+}
+input[type=submit] {
+background-color: #4aaaa5;
+color: #cccccc;
+padding: 5px 10px;
+}
+textarea {
+    height: 33%;
+    width: 100%;
+}
+/* portfolio formatting */
+#portfolio {
+    float:left;
+    position: relative;
+}
+img {
+    height: 100px;
+}
+.row {
+    margin: 8px -16px;
+}
+.row,
+.row > .column {
+    padding: 8px;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
+}
