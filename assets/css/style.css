@@ -42,7 +42,7 @@ a:visited {
 #wrapper {
     width: 100%;
     background-color: #dddddd;
-    height: 70%;
+    height: 960px;
     position: relative;
     border-bottom:  #4aaaa5 5px solid;
 }
@@ -99,7 +99,10 @@ textarea {
     position: relative;
 }
 img {
-    height: 100px;
+    width: 33.3%;
+    position: relative;
+    padding: 20px;
+    float: left;
 }
 .row {
     margin: 8px -16px;
